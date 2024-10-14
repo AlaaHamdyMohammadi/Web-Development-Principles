@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    color: #000;
+    border: #444 solid 5px;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+}
+
+article strong{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shipping{
+    color: #444444d9;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:link{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+button{
+    font-size: 25px;
+    color: #f7f7f7;
+    background-color: #000;
+    text-transform: uppercase;
+}
+
+button:hover{
+    color: #000;
+    border: none;
+    background-color: #f7f7f7;
+}
