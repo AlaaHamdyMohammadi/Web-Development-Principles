@@ -1,8 +1,13 @@
 h1, h2, h3, h4, p, li{
     font-family: sans-serif;
+    color: #444;
 }
+
+h1, h2, h3{
+    color: #1098ad;
+}
+
 h1{
-    color: tomato;
     font-size: 24px;
     text-transform: uppercase;
     font-style: italic;
@@ -43,4 +48,14 @@ footer p{
 
 .relatedPosts{
     list-style: none;
+}
+
+.main-header{
+    background-color: #f7f7f7;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border-top: #1098ad 5px solid;
+    border-bottom: #1098ad 5px solid;
 }
