@@ -1,1 +1,46 @@
 1- index.html file name called index because it's entry point for each website
+
+--------------------------------
+PSEUDO CLASSES: 
+
+CSS pseudo-classes are keywords that are added to selectors to specify a special state of the selected elements. Here are some common types of pseudo-classes in CSS:
+
+1. Structural Pseudo-Classes
+:first-child: Targets the first child element within its parent.
+:last-child: Targets the last child element within its parent.
+:nth-child(n): Targets the nth child of its parent (e.g., :nth-child(2) for the second child).
+:nth-last-child(n): Targets the nth child from the end of its parent.
+:nth-of-type(n): Targets the nth child of its type within its parent.
+:nth-last-of-type(n): Targets the nth child of its type from the end within its parent.
+:only-child: Targets an element if it is the only child of its parent.
+:empty: Targets an element if it has no children (including text nodes).
+
+2. Form and Input Pseudo-Classes
+:focus: Targets an element (like an input) when it has focus.
+:hover: Targets an element when the user hovers over it with a cursor.
+:active: Targets an element when it is being activated (e.g., a button being clicked).
+:disabled: Targets disabled form elements.
+:enabled: Targets enabled form elements.
+:checked: Targets checkboxes or radio buttons that are checked.
+:required: Targets form elements that are required.
+:optional: Targets form elements that are not required.
+:valid: Targets form elements with valid input data.
+:invalid: Targets form elements with invalid input data.
+:in-range: Targets input elements whose value is within a specified range.
+:out-of-range: Targets input elements whose value is outside a specified range.
+
+3. Interactive Pseudo-Classes
+:link: Targets links that have not been visited.
+:visited: Targets links that have already been visited.
+:focus-within: Targets an element if it or any of its descendants have focus.
+
+4. Pseudo-Classes for Dynamic States
+:not(selector): Targets elements that do not match the given selector.
+:is(selector): Targets elements that match any of a list of selectors (simplifies complex selectors).
+:where(selector): Similar to :is(), but with no specificity (useful for styling without specificity issues).
+:nth-last-child(n): Targets elements based on their position relative to their siblings (counting from the end).
+
+5. Other Pseudo-Classes
+:root: Targets the root element of the document (typically <html>).
+:lang(language): Targets elements based on their language attribute.
+:target: Targets an element that matches the current URL fragment (used in page navigation with anchors).
