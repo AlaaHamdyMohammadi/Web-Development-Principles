@@ -44,3 +44,5 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
 :root: Targets the root element of the document (typically <html>).
 :lang(language): Targets elements based on their language attribute.
 :target: Targets an element that matches the current URL fragment (used in page navigation with anchors).
+
+6- For anckor links (LVHA pseudo classes): link - visited - hover - active
