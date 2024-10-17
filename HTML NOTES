@@ -46,3 +46,9 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
 :target: Targets an element that matches the current URL fragment (used in page navigation with anchors).
 
 6- For anckor links (LVHA pseudo classes): link - visited - hover - active
+
+7- center element trick:
+{
+    width: x;
+    margin: 0 auto; # To make margin in left and right are the same.
+}
