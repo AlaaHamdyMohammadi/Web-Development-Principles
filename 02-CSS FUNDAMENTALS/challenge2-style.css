@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 825px;
+    margin: 50px auto;
+}
+
 body{
     font-family: sans-serif;
+    
+}
+
+article{
     color: #000;
-    border: #444 solid 5px;
+    border: #444 solid 3px;
 }
 
 h1{
@@ -9,6 +23,11 @@ h1{
     text-align: center;
     text-transform: uppercase;
     background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.price{
+    margin: 10px 0;
 }
 
 article strong{
@@ -21,6 +40,15 @@ article strong{
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.description{
+    margin-bottom: 10px;
+}
+
+.product-details{
+    margin-bottom: 10px;
 }
 
 a:link{
@@ -33,10 +61,13 @@ a:hover{
 
 h2{
     text-transform: uppercase;
+    margin: 25px 0;
 }
 
 ul li{
     list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -44,10 +75,13 @@ button{
     color: #f7f7f7;
     background-color: #000;
     text-transform: uppercase;
+    border: none;
+    width: 100%;
+    padding: 15px;
 }
 
 button:hover{
     color: #000;
-    border: none;
+    border-top: 1px solid #000;
     background-color: #f7f7f7;
 }
