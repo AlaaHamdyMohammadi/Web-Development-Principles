@@ -52,3 +52,6 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
     width: x;
     margin: 0 auto; # To make margin in left and right are the same.
 }
+
+8- To open imoji picker in vs code: 
+    Press the Windows Key + . (period) or Windows Key + ; (semicolon).
