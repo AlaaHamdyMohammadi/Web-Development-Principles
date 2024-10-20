@@ -16,7 +16,21 @@ body{
 article{
     color: #000;
     border: #444 solid 3px;
+    position: relative;
 }
+
+article::before{
+    content: "SALE";
+    letter-spacing: 2px;
+    position: absolute;
+    background-color: tomato;
+    color: #fff;
+    padding: 5px;
+    top: -18px;
+    left: -32px;
+    font-size: 18px;
+}
+
 
 h1{
     color: #000;
