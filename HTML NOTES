@@ -66,3 +66,9 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
         display: block;
     }
 
+11- flex items defaults:
+    flex-grow: 0; // when make it one on specific element will take all ampty space and add it to own width, if add it on multiple elements, will divide empty width on all elements as the same.
+    flex-shrink: 1;
+    flex-basis: auto;    
+
+12- property (flex: 1;) === (flex-grow: 1;)
