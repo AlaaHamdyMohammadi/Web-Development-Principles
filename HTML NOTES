@@ -54,4 +54,7 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
 }
 
 8- To open imoji picker in vs code: 
-    Press the Windows Key + . (period) or Windows Key + ; (semicolon).
+    Press the Windows Key + . (period) or Windows Key + ; (semicolon). ❤️
+
+9- when make structure as float, the height will collapsed and = 0    
+
