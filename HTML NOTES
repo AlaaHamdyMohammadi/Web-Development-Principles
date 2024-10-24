@@ -56,5 +56,13 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
 8- To open imoji picker in vs code: 
     Press the Windows Key + . (period) or Windows Key + ; (semicolon). ❤️
 
-9- when make structure as float, the height will collapsed and = 0    
+9- when make structure as float, the height will collapsed and = 0
+
+10- To fix collapsed height problem, I can make empty div with clearfix class, 
+    and put in this class clearfix property, or put this class on the div caused this collapsed and put this properties on this class:
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
 
