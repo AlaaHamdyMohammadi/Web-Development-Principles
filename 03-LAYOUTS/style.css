@@ -41,7 +41,7 @@ h1{
     font-size: 24px;
     text-transform: uppercase;
     font-style: italic;
-    float: left;
+    /* float: left; */
 }
 
 
@@ -85,9 +85,9 @@ p{
     margin-bottom: 15px;
 }
 
-p::first-line{
+/* p::first-line{
     color: red;
-}
+} */
 
 li{
     font-size: 20px;
@@ -140,8 +140,8 @@ li:last-child{
 a:link{
     color: #1098ad;
     text-decoration: none;
-    float: right;
-    padding: 10px;
+    /* float: right; */
+    /* padding: 10px; */
 }
 
 a:visited{
@@ -170,7 +170,7 @@ button{
 
 /* Float */
 
-.auther-img{
+/* .auther-img{
     float: left;
     margin-bottom: 20px;
 }
@@ -200,4 +200,51 @@ aside{
 footer{
     margin-top: 30px;
     clear: both;
+} */
+
+/* Flex box */
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auther-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auther{
+    margin-bottom: 0;
+}
+
+.related-post{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.related-box p {
+    margin-bottom: 0;
+    color: #000;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.post-header{
+    width: 900px;
+}
+.post-aside{
+    /* width: 300px; */
+    align-self: self-start;
 }
