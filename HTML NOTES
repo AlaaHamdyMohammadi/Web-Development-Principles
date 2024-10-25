@@ -77,4 +77,8 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
     for columns --> grid-template-columns: 250px 250px 150px 150px; (may be divide width to 4 columns)
                     column-gap: 10px; (may be different gap just for columns)
     for rows -----> grid-template-rows: 200px 100px; (width for 2 rows to 4 columns)
-                    row-gap: 20px; (may be different gap just for rows)           
+                    row-gap: 20px; (may be different gap just for rows)        
+
+14- if i put --> grid-template-columns: 250px 250px 1fr 150px; 
+    fr mean fraction, this use to will fill the all empty width space of container, so it's fit on any space increase or decrease
+    grid-template-columns: repeat(8, 1fr); /* 8 = number of columns, 1fr = same width for all columns*/
