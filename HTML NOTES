@@ -72,3 +72,9 @@ CSS pseudo-classes are keywords that are added to selectors to specify a special
     flex-basis: auto;    
 
 12- property (flex: 1;) === (flex-grow: 1;)
+
+13- grid system: have two dimensions (columns and rows)
+    for columns --> grid-template-columns: 250px 250px 150px 150px; (may be divide width to 4 columns)
+                    column-gap: 10px; (may be different gap just for columns)
+    for rows -----> grid-template-rows: 200px 100px; (width for 2 rows to 4 columns)
+                    row-gap: 20px; (may be different gap just for rows)           
